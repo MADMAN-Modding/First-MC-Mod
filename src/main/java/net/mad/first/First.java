@@ -1,6 +1,8 @@
 package net.mad.first;
 
 import com.mojang.logging.LogUtils;
+
+import net.mad.first.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +25,8 @@ public class First
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
+
+        ModItems.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
     }
