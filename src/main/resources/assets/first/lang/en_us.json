@@ -1,5 +1,10 @@
 {
     "item.first.zircon": "Zircon",
     "item.first.raw_zircon": "Raw Zircon",
+
+    "block.first.zircon_block": "Block of Zircon",
+    "block.first.zircon_ore": "Zircon Ore",
+    "block.first.deepslate_zircon_ore": "Deepslate Zircon Ore",
+
     "itemGroup.MAD": "MAD's Stuff"
 }
